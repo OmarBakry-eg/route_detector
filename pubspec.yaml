@@ -1,6 +1,6 @@
 name: route_detector
 description: A flutter library for easily observing the navigation route.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/OmarBakry-eg/route_detector
 
 environment:
