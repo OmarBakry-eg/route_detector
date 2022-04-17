@@ -1,10 +1,10 @@
 name: route_detector
-description: A new Flutter package project.
-version: 0.0.1
-homepage:
+description: A flutter library for easily observing the navigation route.
+version: 1.0.0
+homepage: https://github.com/OmarBakry-eg/route_detector
 
 environment:
-  sdk: ">=2.16.2 <3.0.0"
+  sdk: ">=2.12.2 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
