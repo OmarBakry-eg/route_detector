@@ -33,6 +33,33 @@ class MyApp extends StatelessWidget {
 }
 
 
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({Key? key, required this.title}) : super(key: key);
+  final String title;
+  @override
+  Widget build(BuildContext context) {
+    return RouteDetector( //* Use it
+      routeObserver: MyApp.routeObserver,
+      routeName: "MyHomePage",
+      onLeaveScreen: (){},
+      onShowingScreen: (){},
+      showLogs: true,
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text(title),
+        ),
+        body: Center(
+          child: Text(
+            'Screen One',
+            style: Theme.of(context).textTheme.headline4,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
 ```
 
 ## Contributing
